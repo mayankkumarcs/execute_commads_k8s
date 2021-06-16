@@ -1,0 +1,7 @@
+get services --server-print=false
+get pods --all-namespaces --server-print=false
+get pods -o wide --server-print=false
+get pods --server-print=false
+get pods --show-labels --server-print=false
+api-resources --server-print=false
+api-resources -o wide --server-print=false
